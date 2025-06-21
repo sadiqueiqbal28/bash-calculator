@@ -52,7 +52,7 @@ do
 		b) subtraction $num1 $num2;;
 		c) multiplication $num1 $num2;;
 		d) division $num1 $num2;;
-		*) break
+		*) exit 1
 	esac
 	echo -e "\n"
 	echo "Please choose the operation to perform"
